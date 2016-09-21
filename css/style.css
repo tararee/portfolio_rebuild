@@ -15,13 +15,11 @@ html{
   -o-background-size: cover;
   text-align: center;
   color: #ffebbb;
-  display: flex;
-  flex-direction: column;
+
 }
 
 .heading .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
+
 }
 
 .heading .intro-text .myname-heading {
@@ -44,6 +42,7 @@ html{
   line-height: 55px;
   padding:25px;
   text-shadow: 0 0 15px;
+
 }
 
 
