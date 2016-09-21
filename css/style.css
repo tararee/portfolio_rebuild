@@ -1,12 +1,13 @@
+@portfolio
 
-
+.navbar{}
 .navbar-brand-centered {
     position: absolute;
     left: 50%;
     display: block;
     width: 160px;
     text-align: center;
-    background-color: transparent;
+    background-color: $pink;
 }
 .navbar>.container .navbar-brand-centered,
 .navbar>.container-fluid .navbar-brand-centered {
