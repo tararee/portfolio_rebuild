@@ -1,0 +1,133 @@
+html{
+  sans-serif;
+}
+
+
+
+.heading {
+  background-image: url('../img/headboard.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #ffebbb;
+
+}
+
+.heading .intro-text {
+
+}
+
+.heading .intro-text .myname-heading {
+
+   font-family: 'Helvetica', sans-serif;
+   font-weight: 800;
+   max-width: 100%;
+   font-size: 125px;
+   line-height: 55px;
+   padding:25px;
+   text-shadow: 0 0 15px;
+ }
+
+
+.heading .intro-text .myname-heading .tara{
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 800;
+  max-width: 100%;
+  font-size: 125px;
+  line-height: 55px;
+  padding:25px;
+  text-shadow: 0 0 15px;
+
+}
+
+
+
+
+/*Navbar*/
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #FA8072;
+  font-family: "Lobster Two";
+  font-size: 32px;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #FA8072;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: #8FBC8F;
+  border-color: #8FBC8F;
+font-family: 'Noto Sans', sans-serif;
+  color: #ffebbb;
+
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #8FBC8F;
+}
+.navbar-custom .nav li a {
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #8FBC8F;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #8FBC8F;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #8FBC8F;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+/*End Of Navbar*/
