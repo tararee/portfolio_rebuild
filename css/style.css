@@ -1,8 +1,22 @@
 html{
   sans-serif;
 }
-
-
+/*tablets*/
+@media screen and (max-width: 500px){
+.myname-heading .tara, .ree, .miller{
+  height: 25%;width: 25%;}
+}
+/*phones*/
+@media screen and (max-width: 768px){
+.myname-heading .tara, .ree, .miller{
+  width: 75%;}
+}
+.jumbotron {
+  background-image: url('../img/headboard.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
 
 .heading {
   background-image: url('../img/headboard.jpg');
@@ -22,7 +36,7 @@ html{
 
 }
 
-.heading .intro-text .myname-heading {
+.myname-heading {
 
    font-family: 'Helvetica', sans-serif;
    font-weight: 800;
@@ -31,10 +45,12 @@ html{
    line-height: 55px;
    padding:25px;
    text-shadow: 0 0 15px;
+   text-align: center;
+   color: #ffebbb;
  }
 
 
-.heading .intro-text .myname-heading .tara{
+.myname-heading .tara, .ree{
   font-family: 'Helvetica', sans-serif;
   font-weight: 800;
   max-width: 100%;
@@ -44,6 +60,25 @@ html{
   text-shadow: 0 0 15px;
 
 }
+
+.myname-heading .miller{
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 800;
+  max-width: 100%;
+  font-size: 125px;
+  line-height: 55px;
+  padding:25px;
+  text-shadow: 0 0 15px;
+
+}
+
+/*Buttons for Index Page*/
+.index-btns{
+display: flex;
+
+}
+
+
 
 
 
@@ -68,15 +103,16 @@ html{
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #8FBC8F;
-  border-color: #8FBC8F;
+  background-color:#FA8072;
+;
+  border-color: #FA8072;
 font-family: 'Noto Sans', sans-serif;
   color: #ffebbb;
 
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #8FBC8F;
+  background-color: #FA8072;
 }
 .navbar-custom .nav li a {
   font-family: 'Noto Sans', sans-serif;
@@ -88,13 +124,13 @@ font-family: 'Noto Sans', sans-serif;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #8FBC8F;
+  color: #FA8072;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #8FBC8F;
+  background-color: #FA8072;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
