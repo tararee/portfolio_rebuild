@@ -1,16 +1,38 @@
 html{
   sans-serif;
 }
-/*tablets*/
-@media screen and (max-width: 500px){
-.myname-heading .tara, .ree, .miller{
-  height: 25%;width: 25%;}
-}
-/*phones*/
-@media screen and (max-width: 768px){
-.myname-heading .tara, .ree, .miller{
-  width: 75%;}
-}
+
+/* Large Devices, Wide Screens */
+   @media only screen and (max-width : 1200px) {
+
+   }
+
+   /* Medium Devices, Desktops */
+   @media only screen and (max-width : 992px) {
+
+   }
+
+   /* Small Devices, Tablets */
+   @media only screen and (max-width : 768px) {
+     .tara, .ree, .miller{
+       font-size: 80px;
+       }
+   }
+
+   /* Extra Small Devices, Phones */
+   @media only screen and (max-width : 480px) {
+     .tara, .ree, .miller{
+       font-size: 80px;
+       }
+   }
+
+   /* Custom, iPhone Retina */
+   @media only screen and (max-width : 320px) {
+     .myname-heading{
+       font-size: 80px;
+       }
+   }
+
 .jumbotron {
   background-image: url('../img/headboard.jpg');
   background-size: cover;
@@ -18,31 +40,14 @@ html{
   text-align: center;
 }
 
-.heading {
-  background-image: url('../img/headboard.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: #ffebbb;
-
-}
-
-.heading .intro-text {
-
-}
 
 .myname-heading {
 
-   font-family: 'Helvetica', sans-serif;
+   font-family: 'Raleway', sans-serif;
    font-weight: 800;
    max-width: 100%;
    font-size: 125px;
-   line-height: 55px;
+   margin:25px;
    padding:25px;
    text-shadow: 0 0 15px;
    text-align: center;
@@ -51,7 +56,7 @@ html{
 
 
 .myname-heading .tara, .ree{
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   max-width: 100%;
   font-size: 125px;
@@ -62,25 +67,37 @@ html{
 }
 
 .myname-heading .miller{
-  font-family: 'Helvetica', sans-serif;
-  font-weight: 800;
-  max-width: 100%;
-  font-size: 125px;
-  line-height: 55px;
-  padding:25px;
-  text-shadow: 0 0 15px;
+  font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      font-size: 125px;
+      line-height: 75px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-shadow: 0 0 15px;
 
 }
 
 /*Buttons for Index Page*/
 .index-btns{
-display: flex;
 
 }
+.developer-btn {
+  width: 75%;
+}
 
+.ampersand{
+  display: flex;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: 400;
+    font-size: 155px;
+    line-height: 75px;
+    margin-top: 85px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-shadow: 0 0 15px;
+    color: #ffebbb;
 
-
-
+}
 
 
 /*Navbar*/
