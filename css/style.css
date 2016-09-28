@@ -1,61 +1,35 @@
-html{
-  sans-serif;
-}
-
-/* Large Devices, Wide Screens */
-   @media only screen and (max-width : 1200px) {
-
-   }
-
-   /* Medium Devices, Desktops */
-   @media only screen and (max-width : 992px) {
-
-   }
-
-   /* Small Devices, Tablets */
-   @media only screen and (max-width : 768px) {
-     .tara, .ree, .miller{
-       font-size: 80px;
-       }
-   }
-
-   /* Extra Small Devices, Phones */
-   @media only screen and (max-width : 480px) {
-     .tara, .ree, .miller{
-       font-size: 80px;
-       }
-   }
-
-   /* Custom, iPhone Retina */
-   @media only screen and (max-width : 320px) {
-     .myname-heading{
-       font-size: 80px;
-       }
-   }
 
 .jumbotron {
   background-image: url('../img/headboard.jpg');
+  background-repeat:no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
 }
 
+.yellow-row{
+padding-top: 5px;
+padding-bottom: 15px;
 
+}
+.yellow-icons{
+  width:1em; /* 85/16 */
+width: 25%;
+margin-left: 15px;
+}
 .myname-heading {
 
    font-family: 'Raleway', sans-serif;
    font-weight: 800;
    max-width: 100%;
-   font-size: 125px;
-   margin:25px;
-   padding:25px;
+   font-size: 7em;
    text-shadow: 0 0 15px;
    text-align: center;
    color: #ffebbb;
  }
 
 
-.myname-heading .tara, .ree{
+/*.myname-heading .tara, .ree{
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   max-width: 100%;
@@ -75,7 +49,7 @@ html{
       margin-bottom: 50px;
       text-shadow: 0 0 15px;
 
-}
+}*/
 
 /*Buttons for Index Page*/
 .index-btns{
@@ -86,14 +60,9 @@ html{
 }
 
 .ampersand{
-  display: flex;
     font-family: 'Berkshire Swash', cursive;
     font-weight: 400;
     font-size: 155px;
-    line-height: 75px;
-    margin-top: 85px;
-    margin-left: 50px;
-    margin-right: 50px;
     text-shadow: 0 0 15px;
     color: #ffebbb;
 
